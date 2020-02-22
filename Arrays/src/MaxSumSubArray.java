@@ -2,7 +2,7 @@
 
 public class MaxSumSubArray {
 
-    public int maxSum(int[] nums) {
+    private static int maxSum(int[] nums) {
         // Check edge case where the array parameter is null
         if (nums == null) {
             throw new NullPointerException("The array is null.");

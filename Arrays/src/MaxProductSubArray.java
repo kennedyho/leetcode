@@ -2,7 +2,7 @@
 
 public class MaxProductSubArray {
 
-    public int maxProduct(int[] nums) {
+    private static int maxProduct(int[] nums) {
 
         // Check the edge case
         if (nums == null) {
