@@ -5,7 +5,7 @@ and it should return false if every element is distinct. */
 import java.util.HashSet;
 
 public class ContainsDuplicate {
-    public boolean containsDuplicate(int[] nums) {
+    private static boolean containsDuplicate(int[] nums) {
         // Use a hashset to obtain O(n) time complexity
         // Accessing an item in the hashset is O(1) time complexity
         // However, more memory will be used to maintain another set of N numbers.
@@ -17,5 +17,10 @@ public class ContainsDuplicate {
             set.add(num);
         }
         return false;
+    }
+
+    // Unit test
+    public static void main(String[] args) {
+
     }
 }
